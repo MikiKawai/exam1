@@ -16,7 +16,7 @@ public class App3 {
     @Produces(MediaType.TEXT_PLAIN)
     public String echoMessageParameter(@QueryParam("message") String message) {
         // TODO: implement this method
-        return null;
+        return message;
     }
 
 }
