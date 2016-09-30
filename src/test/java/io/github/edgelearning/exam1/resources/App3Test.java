@@ -16,7 +16,7 @@ public class App3Test {
      */
     @Test
     public void testEchoMessageParameter() {
-        assertThat(new App3().echoMessageParameter(""), is(nullValue()));
+        assertThat(new App3().echoMessageParameter("message"), is("message"));
     }
 
 }
